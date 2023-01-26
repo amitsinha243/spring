@@ -19,5 +19,28 @@ public class books {
     @Column
     private String author;
 
-    
+    public int getBookid()   
+    {  
+        return id;  
+    }  
+    public void setBookid(int id)   
+    {  
+        this.id = id;  
+    }  
+    public String getBookname()  
+    {  
+        return name;  
+    }  
+    public void setBookname(String name)   
+    {  
+        this.name = name;  
+    }  
+    public String getAuthor()   
+    {  
+        return author;  
+    }  
+    public void setAuthor(String author)   
+    {  
+        this.author = author;  
+    }      
 }
